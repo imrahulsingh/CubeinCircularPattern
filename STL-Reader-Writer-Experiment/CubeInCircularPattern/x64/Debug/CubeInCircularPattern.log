@@ -1,0 +1,31 @@
+﻿  FileReader.cpp
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(18,1): error C2511: 'void FileReader::calculateNoOfVerticesAndFacets(std::string &,int &,int &,int &,int &)': overloaded member function not found in 'FileReader'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.h(8): message : see declaration of 'FileReader'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(89,13): error C2352: 'FileReader::iterateLine': a call of a non-static member function requires an object
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(9): message : see declaration of 'FileReader::iterateLine'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(103,13): error C2352: 'FileReader::iterateLine': a call of a non-static member function requires an object
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(9): message : see declaration of 'FileReader::iterateLine'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(118,13): error C2352: 'FileReader::iterateLine': a call of a non-static member function requires an object
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(9): message : see declaration of 'FileReader::iterateLine'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(306,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(400,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(444,30): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.cpp(464,30): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  main.cpp
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\main.cpp(55,15): error C2664: 'void FileReader::calculateNoOfVerticesAndFacets(std::string &,int *,int &,int &,int &)': cannot convert argument 2 from 'int' to 'int *'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\main.cpp(55,53): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\FileReader.h(22,7): message : see declaration of 'FileReader::calculateNoOfVerticesAndFacets'
+D:\CPP Assignment\STL-Reader-Writer-Experiment\CubeInCircularPattern\main.cpp(240,69): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  Generating Code...
